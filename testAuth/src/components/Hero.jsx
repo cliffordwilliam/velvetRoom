@@ -1,3 +1,6 @@
+import hero from "./src/assets/b.webp"
+
+
 function Hero() {
     return (
         <>
@@ -6,7 +9,7 @@ function Hero() {
                     <h1 className="hero-title">Rent Rooms | Hacktiv</h1>
                     <p className="hero-sub-title">Best lodging in town</p>
                 </div>
-                <img className="hero-img" src="./src/assets/b.webp" alt="Hero Image" />
+                <img className="hero-img" src={hero} alt="Hero Image" />
             </section>
         </>
     )
