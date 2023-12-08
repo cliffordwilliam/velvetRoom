@@ -1,4 +1,4 @@
-import hero from "./src/assets/b.webp"
+import hero from "./b.webp"
 
 
 function Hero() {
