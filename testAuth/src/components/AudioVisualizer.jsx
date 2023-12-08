@@ -1,8 +1,11 @@
+import vel from "./vel.mp3"
+
+
 function AudioVisualizer() {
     return (
         <>
             {/* AUDIO */}
-            <audio src="./src/assets/vel.mp3" controls loop></audio>
+            <audio src={vel} controls loop></audio>
             {/* AUDIO VISUALIZER */}
             <div id="audioContainer"></div>
         </>

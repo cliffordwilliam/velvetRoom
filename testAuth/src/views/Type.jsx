@@ -2,7 +2,7 @@
  * # BLOCKS #
  * ##########
  */
-import placeholderUrl from "../assets/placeholder.jpg"
+import placeholderUrl from ".placeholder.jpg"
 import Modal from "../components/Modal" // modal
 
 
